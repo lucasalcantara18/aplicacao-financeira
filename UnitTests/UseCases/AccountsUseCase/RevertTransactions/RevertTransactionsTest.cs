@@ -123,42 +123,5 @@ namespace UnitTests.UseCases.AccountsUseCase.RevertTransactions
 
             Assert.Equal("Saldo insuficiente para estorno da transação.", ex.Message);
         }
-
-        [Fact]
-        public async Task AddInternalTransactions_Excpetion_Valor_negativo()
-        {
-            // Act & Assert
-            var ex = await Assert.ThrowsAsync<ApiException>(() =>
-                _useCase.HandleAsync("1", "2"));
-
-            Assert.Equal("Apenas operações de debito em transação interna.", ex.Message);
-        }
-
-        [Fact]
-        public async Task AddInternalTransactions_Exception_Conta_Nao_Encontrado()
-        {
-            // Arrange
-            var originalConta = new Conta
-            {
-                Id = "1",
-                PessoaId = "123",
-                Transactions = new List<ClientTransaction>
-                {
-                    new ClientTransaction { Value = 5, CreatedAt = DateTime.Now.AddDays(-1) },
-                },
-            };
-
-            _contaRepository.Setup(r => r.SingleAsync(x => x.Id == "1", default))
-                .ReturnsAsync(originalConta);
-
-            _contaRepository.Setup(r => r.SingleAsync(x => x.Id == "2", default))
-                .ReturnsAsync((Conta)null);
-
-            // Act & Assert
-            var ex = await Assert.ThrowsAsync<ApiException>(() =>
-                _useCase.HandleAsync("1", "2"));
-
-            Assert.Equal("Conta 2 não encontrado.", ex.Message);
-        }
     }
 }

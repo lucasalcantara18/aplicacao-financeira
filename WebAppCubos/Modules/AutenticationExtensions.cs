@@ -43,7 +43,7 @@ namespace WebAppCubos.Modules
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Minha API com JWT",
+                    Title = "WebApp",
                     Version = "v1"
                 });
 

@@ -1,0 +1,1067 @@
+{
+	"info": {
+		"_postman_id": "ccd86760-12ef-4ee8-9aa9-cc4df54a6edf",
+		"name": "CubosChallange",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12648463",
+		"_collection_link": "https://crimson-meadow-526736.postman.co/workspace/Team-Workspace~6c921232-155d-4a6e-8a35-0cbf09416d66/collection/12648463-ccd86760-12ef-4ee8-9aa9-cc4df54a6edf?action=share&source=collection_link&creator=12648463"
+	},
+	"item": [
+		{
+			"name": "Dev",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let resposta = pm.response.json();\r",
+									"let token = resposta.token || resposta.access_token;\r",
+									"\r",
+									"// Salva em variável global ou de ambiente\r",
+									"pm.environment.set(\"token\", token);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"document\": \"\",\r\n  \"password\": \"teste\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/login",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddPeople",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Lucas\",\r\n  \"document\": \"\",\r\n  \"password\": \"teste\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/people",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"people"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddAccount",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"branch\": \"456\",\r\n  \"account\": \"2033392-6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddCard",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"type\": \"physical\",\r\n  \"number\": \"1234 7478 8594 9087\",\r\n  \"cvv\": \"678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/f6051c75-ee09-438e-895f-72c2148f028a/cards",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"f6051c75-ee09-438e-895f-72c2148f028a",
+								"cards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddTransaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"value\": 10.00,\r\n  \"description\": \"teste\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddTransactionInternal",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"receiverAccountId\": \"03ffc94f-5a56-4c98-b107-8faa1e7e7ebd\",\r\n  \"value\": 5000.00,\r\n  \"description\": \"Pizza do FDS\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions/internal",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions",
+								"internal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RevertTransaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"receiverAccountId\": \"635adcf2-4173-45f2-8d8e-ed017dc9e6d6\",\r\n  \"value\": 35.53,\r\n  \"description\": \"Pizza do FDS\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions/c789be2d-6076-4810-9061-50e5a5f7594d/revert",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions",
+								"c789be2d-6076-4810-9061-50e5a5f7594d",
+								"revert"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAccounts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCards",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/f6051c75-ee09-438e-895f-72c2148f028a/cards",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"f6051c75-ee09-438e-895f-72c2148f028a",
+								"cards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBalance",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/balance",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"balance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTransactions",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "debit",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUserCards",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDev}}/cards",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDev}}",
+							"path": [
+								"cards"
+							],
+							"query": [
+								{
+									"key": "itemsPerPage",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "currentPage",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Docker",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let resposta = pm.response.json();\r",
+									"let token = resposta.token || resposta.access_token;\r",
+									"\r",
+									"// Salva em variável global ou de ambiente\r",
+									"pm.environment.set(\"token\", token);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"document\": \"\",\r\n  \"password\": \"teste\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/login",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddPeople",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Lucas\",\r\n  \"document\": \"\",\r\n  \"password\": \"teste\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/people",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"people"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddAccount",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"branch\": \"456\",\r\n  \"account\": \"2033392-6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddCard",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"type\": \"physical\",\r\n  \"number\": \"1234 7478 8594 9087\",\r\n  \"cvv\": \"678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/f6051c75-ee09-438e-895f-72c2148f028a/cards",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"f6051c75-ee09-438e-895f-72c2148f028a",
+								"cards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddTransaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"value\": 10.00,\r\n  \"description\": \"teste\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddTransactionInternal",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"receiverAccountId\": \"03ffc94f-5a56-4c98-b107-8faa1e7e7ebd\",\r\n  \"value\": 5000.00,\r\n  \"description\": \"Pizza do FDS\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions/internal",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions",
+								"internal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RevertTransaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"receiverAccountId\": \"635adcf2-4173-45f2-8d8e-ed017dc9e6d6\",\r\n  \"value\": 35.53,\r\n  \"description\": \"Pizza do FDS\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions/c789be2d-6076-4810-9061-50e5a5f7594d/revert",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions",
+								"c789be2d-6076-4810-9061-50e5a5f7594d",
+								"revert"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAccounts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCards",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/f6051c75-ee09-438e-895f-72c2148f028a/cards",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"f6051c75-ee09-438e-895f-72c2148f028a",
+								"cards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBalance",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/balance",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"balance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTransactions",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/account/60480cc5-2705-49a2-ac30-679e19dde9a6/transactions",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"account",
+								"60480cc5-2705-49a2-ac30-679e19dde9a6",
+								"transactions"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "debit",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUserCards",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{Url}}:{{portDocker}}/cards",
+							"host": [
+								"{{Url}}"
+							],
+							"port": "{{portDocker}}",
+							"path": [
+								"cards"
+							],
+							"query": [
+								{
+									"key": "itemsPerPage",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "currentPage",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
