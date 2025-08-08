@@ -1,0 +1,963 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\reverttransactions\\reverttransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\reverttransactions\\reverttransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\reverttransaction\\reverttransactionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\reverttransaction\\reverttransactionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\modules\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\modules\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\loginusecase\\signin\\signinusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\loginusecase\\signin\\signinusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\peopleusecase\\addpeople\\addpeopleusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\peopleusecase\\addpeople\\addpeopleusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\modules\\postgressextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\modules\\postgressextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\addinternaltransaction\\addinternaltransactionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\addinternaltransaction\\addinternaltransactionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\addinternaltransactions\\addinternaltransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\addinternaltransactions\\addinternaltransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\addtransactions\\addtransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\addtransactions\\addtransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\addtransaction\\addtransactionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\addtransaction\\addtransactionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\gettransactions\\gettransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\gettransactions\\gettransactionstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\gettransactions\\gettransactionsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\gettransactions\\gettransactionsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\getcards\\getcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\getcards\\getcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\getcards\\getcardsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\getcards\\getcardsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\addcards\\addcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\addcards\\addcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\getaccounts\\getaccountstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\getaccounts\\getaccountstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\cardsusecase\\getcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\cardsusecase\\getcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\getbalance\\getbalancetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\getbalance\\getbalancetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\getbalance\\getbalanceusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\getbalance\\getbalanceusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\getaccounts\\getaccountsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\getaccounts\\getaccountsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\addcards\\addcardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\addcards\\addcardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\accountsusecase\\addaccount\\addaccounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\accountsusecase\\addaccount\\addaccounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\accountsusecase\\addaccount\\addaccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\accountsusecase\\addaccount\\addaccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\loginusecase\\signintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\loginusecase\\signintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\usecases\\cardsusecase\\getcards\\getusercardsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\usecases\\cardsusecase\\getcards\\getusercardsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\unittests\\usecases\\peopleusecase\\addpeople\\addpeopletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40CC24E-A2E5-4CF4-BAE3-AEF6CC5AC85E}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usecases\\peopleusecase\\addpeople\\addpeopletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\sql\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\sql\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\controllers\\account\\getaccounts\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\controllers\\account\\getaccounts\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\controllers\\account\\getbalance\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\controllers\\account\\getbalance\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\controllers\\account\\addtransaction\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\controllers\\account\\addtransaction\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\controllers\\account\\addinternaltransaction\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\controllers\\account\\addinternaltransaction\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\controllers\\account\\addcards\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\controllers\\account\\addcards\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\webappcubos\\controllers\\account\\addaccount\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3030DE-F19E-4EA5-85D1-8F8BCB69FC3A}|WebAppCubos\\WebAppCubos.csproj|solutionrelative:webappcubos\\controllers\\account\\addaccount\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\sql\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\sql\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\sql\\bases\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\sql\\bases\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\repositories\\contarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\repositories\\contarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\repositories\\cartaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\repositories\\cartaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\mappings\\transactionmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\mappings\\transactionmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\mappings\\pessoamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\mappings\\pessoamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\mappings\\contamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\mappings\\contamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\dataaccess\\mappings\\cartaomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dataaccess\\mappings\\cartaomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\services\\external\\complianceservice\\complianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\services\\external\\complianceservice\\complianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB1FF2F8-C357-4D18-92F3-94CC4890D565}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A2CCF9-CED5-4169-8E17-912747E5C30E}|Domain\\Domain.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2A2CCF9-CED5-4169-8E17-912747E5C30E}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|c:\\users\\administrator\\source\\repos\\teste\\webappcubos\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{99DE3464-160E-4D1F-8208-0BC24075B6F6}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RevertTransactionsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\RevertTransactions\\RevertTransactionsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\RevertTransactions\\RevertTransactionsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\RevertTransactions\\RevertTransactionsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\RevertTransactions\\RevertTransactionsTest.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:05:11.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddInternalTransactionsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddInternalTransactions\\AddInternalTransactionsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\AddInternalTransactions\\AddInternalTransactionsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddInternalTransactions\\AddInternalTransactionsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\AddInternalTransactions\\AddInternalTransactionsTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:59:03.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Dockerfile",
+              "RelativeDocumentMoniker": "WebAppCubos\\Dockerfile",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Dockerfile",
+              "RelativeToolTip": "WebAppCubos\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-07T12:28:29.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Program.cs",
+              "RelativeToolTip": "WebAppCubos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:19:13.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostgressExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Modules\\PostgressExtensions.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Modules\\PostgressExtensions.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Modules\\PostgressExtensions.cs",
+              "RelativeToolTip": "WebAppCubos\\Modules\\PostgressExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:44:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MigrationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Modules\\MigrationExtensions.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Modules\\MigrationExtensions.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Modules\\MigrationExtensions.cs",
+              "RelativeToolTip": "WebAppCubos\\Modules\\MigrationExtensions.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwBkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:45:32.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebAppCubos\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\appsettings.Development.json",
+              "RelativeToolTip": "WebAppCubos\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T20:28:52.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-08-07T20:27:31.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Docker.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\appsettings.Docker.json",
+              "RelativeDocumentMoniker": "WebAppCubos\\appsettings.Docker.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\appsettings.Docker.json",
+              "RelativeToolTip": "WebAppCubos\\appsettings.Docker.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T20:28:27.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetBalanceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:57:19.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetCardsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetCards\\GetCardsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\GetCards\\GetCardsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetCards\\GetCardsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\GetCards\\GetCardsTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:04:55.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppCubos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\appsettings.json",
+              "RelativeToolTip": "WebAppCubos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T12:42:00.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetTransactionsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsTest.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAArwDoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:15:02.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddTransactionsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddTransactions\\AddTransactionsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\AddTransactions\\AddTransactionsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddTransactions\\AddTransactionsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\AddTransactions\\AddTransactionsTest.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAjwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:30:50.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetAccountsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:47:07.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddCardsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddCards\\AddCardsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\AddCards\\AddCardsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddCards\\AddCardsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\AddCards\\AddCardsTest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:34:50.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetCardsTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\CardsUseCase\\GetCardsTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\CardsUseCase\\GetCardsTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\CardsUseCase\\GetCardsTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\CardsUseCase\\GetCardsTest.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowD4AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:27:36.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddAccountTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:22:35.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAppCubos\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAppCubos\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T12:17:48.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SignInTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\LoginUseCase\\SignInTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\LoginUseCase\\SignInTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\LoginUseCase\\SignInTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\LoginUseCase\\SignInTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:08:11.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\GetBalance\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Controllers\\Account\\GetBalance\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\GetBalance\\AccountController.cs",
+              "RelativeToolTip": "WebAppCubos\\Controllers\\Account\\GetBalance\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:24:49.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddPeopleTest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleTest.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\UnitTests\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleTest.cs",
+              "RelativeToolTip": "UnitTests\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwD0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:07:27.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-08-07T12:30:01.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-07T12:27:38.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\GetAccounts\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Controllers\\Account\\GetAccounts\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\GetAccounts\\AccountController.cs",
+              "RelativeToolTip": "WebAppCubos\\Controllers\\Account\\GetAccounts\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:25:01.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Sql\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Sql\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Sql\\DatabaseContext.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Sql\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:44:30.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddTransaction\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Controllers\\Account\\AddTransaction\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddTransaction\\AccountController.cs",
+              "RelativeToolTip": "WebAppCubos\\Controllers\\Account\\AddTransaction\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:24:48.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddInternalTransaction\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Controllers\\Account\\AddInternalTransaction\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddInternalTransaction\\AccountController.cs",
+              "RelativeToolTip": "WebAppCubos\\Controllers\\Account\\AddInternalTransaction\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:24:45.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddCards\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Controllers\\Account\\AddCards\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddCards\\AccountController.cs",
+              "RelativeToolTip": "WebAppCubos\\Controllers\\Account\\AddCards\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:24:44.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddAccount\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAppCubos\\Controllers\\Account\\AddAccount\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\WebAppCubos\\Controllers\\Account\\AddAccount\\AccountController.cs",
+              "RelativeToolTip": "WebAppCubos\\Controllers\\Account\\AddAccount\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:56.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Sql\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Sql\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Sql\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Sql\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:53.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Sql\\Bases\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Sql\\Bases\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Sql\\Bases\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Sql\\Bases\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:51.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ContaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\ContaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Repositories\\ContaRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\ContaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Repositories\\ContaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:49.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:47.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PessoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\PessoaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Repositories\\PessoaRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\PessoaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Repositories\\PessoaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CartaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\CartaoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Repositories\\CartaoRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Repositories\\CartaoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Repositories\\CartaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:45.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TransactionMap.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\TransactionMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Mappings\\TransactionMap.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\TransactionMap.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Mappings\\TransactionMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:43.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PessoaMap.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\PessoaMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Mappings\\PessoaMap.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\PessoaMap.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Mappings\\PessoaMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:42.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ContaMap.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\ContaMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Mappings\\ContaMap.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\ContaMap.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Mappings\\ContaMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:22:39.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CartaoMap.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\CartaoMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataAccess\\Mappings\\CartaoMap.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\DataAccess\\Mappings\\CartaoMap.cs",
+              "RelativeToolTip": "Infrastructure\\DataAccess\\Mappings\\CartaoMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:21:56.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ComplianceService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\Services\\External\\ComplianceService\\ComplianceService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\External\\ComplianceService\\ComplianceService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\Services\\External\\ComplianceService\\ComplianceService.cs",
+              "RelativeToolTip": "Application\\Services\\External\\ComplianceService\\ComplianceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:20:16.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T12:15:34.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T12:15:17.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T12:14:32.521Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "de3ca553-65c1-4ec7-9425-1f4db74bd2b7",
+        "Display": 0,
+        "X": 80,
+        "Y": 798,
+        "Width": 1374,
+        "Height": 1121,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RevertTransactionUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\RevertTransaction\\RevertTransactionUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\RevertTransaction\\RevertTransactionUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\RevertTransaction\\RevertTransactionUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\RevertTransaction\\RevertTransactionUseCase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswEUAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:05:24.079Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetAccountsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\GetAccounts\\GetAccountsUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T13:47:29.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetTransactionsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\GetTransactions\\GetTransactionsUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:15:21.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddTransactionUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddTransaction\\AddTransactionUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\AddTransaction\\AddTransactionUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddTransaction\\AddTransactionUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\AddTransaction\\AddTransactionUseCase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:30:15.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddInternalTransactionUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddInternalTransaction\\AddInternalTransactionUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\AddInternalTransaction\\AddInternalTransactionUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddInternalTransaction\\AddInternalTransactionUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\AddInternalTransaction\\AddInternalTransactionUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:59:49.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignInUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\LoginUseCase\\SignIn\\SignInUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\LoginUseCase\\SignIn\\SignInUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\LoginUseCase\\SignIn\\SignInUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\LoginUseCase\\SignIn\\SignInUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:05:38.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddPeopleUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\PeopleUseCase\\AddPeople\\AddPeopleUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:09:22.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddCardUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddCards\\AddCardUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\AddCards\\AddCardUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddCards\\AddCardUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\AddCards\\AddCardUseCase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:21:47.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddAccountUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\AddAccount\\AddAccountUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T12:21:40.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetUserCardsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\CardsUseCase\\GetCards\\GetUserCardsUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\CardsUseCase\\GetCards\\GetUserCardsUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\CardsUseCase\\GetCards\\GetUserCardsUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\CardsUseCase\\GetCards\\GetUserCardsUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:23:37.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetBalanceUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\GetBalance\\GetBalanceUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:57:35.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetCardsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetCards\\GetCardsUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\AccountsUseCase\\GetCards\\GetCardsUseCase.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Teste\\WebAppCubos\\Application\\UseCases\\AccountsUseCase\\GetCards\\GetCardsUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\AccountsUseCase\\GetCards\\GetCardsUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T13:44:50.082Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

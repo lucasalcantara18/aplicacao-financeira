@@ -1,0 +1,18 @@
+services:
+  webappcubos:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_HTTP_PORTS=5000
+      - ASPNETCORE_HTTPS_PORTS=5081
+      - ASPNETCORE_Kestrel__Endpoints__Https__Url=https://+:5001
+      - ASPNETCORE_Kestrel__Endpoints__Https__Certificate__Path=/https/aspnetapp.pfx
+      - ASPNETCORE_Kestrel__Endpoints__Https__Certificate__Password=pass
+    ports:
+      - "5000"
+      - "5001"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${USERPROFILE}/.aspnet/https:/https:ro

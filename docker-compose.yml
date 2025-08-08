@@ -1,0 +1,22 @@
+services:
+  webappcubos:
+    image: ${DOCKER_REGISTRY-}webappcubos
+    container_name: webappcubos
+    build:
+      context: .
+      dockerfile: WebAppCubos/Dockerfile
+    ports:
+        - "5000:5080"
+        - "5001:5001"  
+   
+  database:
+    image: postgres:latest
+    container_name: database
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ../.containers/database:/var/lib/postgresql/data
