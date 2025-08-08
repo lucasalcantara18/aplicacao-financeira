@@ -28,6 +28,9 @@ namespace Application.UseCases.AccountsUseCase.AddAccount
             if(pessoa == null)
                 throw new ApiException("Cliente não encontrado.");
 
+            if (pessoa.Contas.Any(x => x.Account == account))
+                throw new ApiException("Numero de conta já existente");
+
             var newAccount = new Conta(branch, account, clientId);
 
             pessoa.Contas.Add(newAccount);

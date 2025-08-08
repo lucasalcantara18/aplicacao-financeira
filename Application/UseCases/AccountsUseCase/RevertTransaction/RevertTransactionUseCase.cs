@@ -29,9 +29,6 @@ namespace Application.UseCases.AccountsUseCase.RevertTransaction
             var originalTransaction = await _transactionRepository.SingleAsync(x => x.Id == transactionId);
             var targetlTransaction = await _transactionRepository.SingleAsync(x => x.Id == originalTransaction.Internal);
 
-            if(accountId != originalTransaction.ContaId)
-                throw new ApiException("Conta não corresponde a transação original.");
-
             if (originalTransaction == null)
                 throw new ApiException("Transação não encontrada");
 
